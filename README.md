@@ -107,7 +107,7 @@ The current Kali Linux machine uses:
 
 The architecture allows additional virtual machines to be connected to the same NAT Network for future authorized cybersecurity exercises.
 
-![Lab Environment Overview](<PING_10.0.0.1.png>)  
+![Lab Environment Overview](<tittle -image screenshot.png>)  
 
 ---
 
@@ -135,15 +135,15 @@ The architecture allows additional virtual machines to be connected to the same 
 
 ## Step 1. Install 7-Zip
 
-7-Zip was installed to extract the Kali Linux virtual-machine package when required.
+7-Zip was installed to extract the Kali Linux virtual-machine 7.2 ZIP File package when required.
 
-The tool is useful for extracting compressed virtual-machine files before importing them into VirtualBox.
+The tool is useful for extracting compressed virtual-machine files in zip ext before importing/opening them in VirtualBox.
 
 ---
 
 ## Step 2. Install VirtualBox
 
-Oracle VirtualBox 7.2 was installed on the Windows 10 host operating system.
+Oracle VirtualBox 7.2 was installed on the Windows 11 host operating system.
 
 VirtualBox was selected as the hypervisor because it provides the virtualization platform required to create and manage the cybersecurity laboratory.
 
@@ -170,7 +170,7 @@ This configuration provides a suitable foundation for a multi-machine cybersecur
 ---
 ## Step 4. Import Kali Linux
 
-Kali Linux 2026.2 was imported into VirtualBox as the security-testing virtual machine.
+Kali Linux 2026.2 was imported into VirtualBox as the security-testing lab in virtual machine.
 
 The Kali Linux VM was configured to use the previously created NAT Network.
 
@@ -190,7 +190,7 @@ RAM: 2048 MB
 
 The Kali Linux desktop environment was successfully started.
 
-![Kali Linux Virtual Machine](<kali- linux screenshot.jpeg>)
+![Kali Linux Virtual Machine](<kali- linux screenshot..png>)
 
 ---
 
@@ -222,7 +222,7 @@ Gateway: 10.0.0.1
 DNS Server: 8.8.8.8
 ```
 
-![Kali Linux Network Settings](<kali-network-settings screenshot.png>)
+![Kali Linux Network Settings](<kali- linux-settings-screenshot.png>)
 
 The manual configuration gives the Kali Linux VM a consistent IP address that can be referenced during future laboratory exercises.
 
@@ -236,7 +236,7 @@ These tests were used to confirm:
 - The Kali network interface was active.
 - The correct IP address was assigned.
 - The virtual gateway was reachable.
-- Internet connectivity was available.
+- Internet connectivity was active.
 
 ---
 
@@ -262,7 +262,7 @@ The interface state was:
 UP
 ```
 
-![Kali IP Address Verification](ip-a%20screenshot.png)
+![Kali IP Address Verification](<ip a.png>)
 
 ### Result
 
@@ -283,6 +283,8 @@ The VirtualBox NAT Network gateway was tested using:
 ```bash
 ping -c 4 10.0.0.1
 ```
+
+![Kali Virtual gateway](<PING_10.0.0.1.png>)
 
 The test produced successful responses.
 
@@ -318,7 +320,7 @@ The test produced successful responses.
 
 This confirmed that the Kali Linux virtual machine had outbound Internet connectivity.
 
-![Connectivity Test](ping-test%20screenshot.png)
+![Kali Internet Connectivity](<PING_8.8.8.8.png>)
 
 ---
 
@@ -375,6 +377,7 @@ The following screenshots document the laboratory setup and verification process
 | `05-ip-a screenshot.png` | Kali IP address verification |
 | `06-ping-test screenshot.png` | Gateway and Internet connectivity |
 | `07-kali-snapshot screenshot.png` | VirtualBox snapshot |
+| `07-kali-snapshot screenshot.png` | VirtualBox snapshot |
 
 ---
 
@@ -392,7 +395,7 @@ DNS: 8.8.8.8
 
 This confirms that the Kali Linux virtual machine was configured according to the laboratory network design.
 
-![Kali Network Configuration](kali-network-settings%20screenshot.png)
+![Kali Network Configuration](<network-settings screenshot.png>)
 
 ---
 
@@ -408,7 +411,7 @@ eth0
 UP
 ```
 
-![IP Address Verification](ip-a%20screenshot.png)
+![IP Address Verification](<PING_8.8.8.8.png>)
 
 ---
 
@@ -444,7 +447,8 @@ The result was:
 
 These results demonstrate successful connectivity from the Kali Linux VM to both the virtual gateway and the external network.
 
-![Connectivity Tests](ping-test%20screenshot.png)
+![Connectivity Tests](PING_10.0.0.1.png)
+![Connectivity Tests](PING_8.8.8.8.png)
 
 ---
 
@@ -460,7 +464,7 @@ My Fresh Kali Linux
 
 The VirtualBox Snapshot Manager shows the snapshot and the current state of the virtual machine.
 
-![Kali Linux Snapshot](kali-snapshot%20screenshot.png)
+![Kali Linux Snapshot](kali-snapshot screenshot.png)
 
 The snapshot provides a recovery point that can be used before performing future experimental or potentially disruptive cybersecurity activities.
 
@@ -626,11 +630,11 @@ Unauthorized scanning or exploitation of third-party systems is not permitted.
 
 # 👤 Author
 
-**[Elza Chepkemoi]**
+**[KUGBE SAMUEL]**
 
 Cybersecurity & Networking Lab Project
 
-LinkedIn: **[https://www.linkedin.com/in/rotich-elza-3795ab411?utm_source=share_via&utm_content=profile&utm_medium=member_android]**
+LinkedIn: **[https://www.linkedin.com/in/samuel-setonji-kugbe-416733233/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BVg1DgCNXTKWgQsckJZJXiA%3D%3D]**
 
 ---
 
