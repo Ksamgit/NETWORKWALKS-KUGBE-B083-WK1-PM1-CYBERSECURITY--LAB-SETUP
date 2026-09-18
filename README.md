@@ -411,7 +411,7 @@ eth0
 UP
 ```
 
-![IP Address Verification](<PING_8.8.8.8.png>)
+![IP Address Verification](PING_8.8.8.8.png)
 
 ---
 
