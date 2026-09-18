@@ -676,7 +676,7 @@ DHCP:                 Enabled
 Connectivity:         Successful
 Gateway Packet Loss:  0%
 Internet Packet Loss: 0%
-Snapshot:             My Fresh Kali Linux
+Snapshot:             Linux- Kugbe
 ```
 
 The laboratory is ready for future authorized cybersecurity and penetration-testing exercises.
